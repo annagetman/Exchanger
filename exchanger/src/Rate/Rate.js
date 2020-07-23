@@ -6,7 +6,12 @@ import Calc from "../Calc/Calc";
 class Rate extends React.Component {
     constructor(props) {
         super(props);
+        let today = new Date(),
+            dat = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+
+
         this.state = {
+            dat: dat,
             'date': '',
             'currencyRate':{}
         }
@@ -33,7 +38,7 @@ class Rate extends React.Component {
     render() {
         return (
             <div className="rate">
-                <h3>Курс валют на {this.state.date}</h3>
+                <h3>Курс валют на {this.state.dat}</h3>
                 <div className="flex-container">
                     {Object.keys(this.state.currencyRate).map( (keyName, i) =>
 
