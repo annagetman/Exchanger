@@ -11,6 +11,9 @@ class App extends React.Component {
     // constructor(props) {
     //     super(props);
     // }
+    Prompt  = () => {
+        prompt('You are agree?')
+    }
     render() {
         return (
             <div className="site">
@@ -31,7 +34,7 @@ class App extends React.Component {
                     <div className="site-content">
                         <div className="well">На нашем сайте мы исползуем cookie для сбора
                             информации технического характера
-                            &nbsp;<button className="btn btn-primary btn-sm">Ok</button>
+                            &nbsp;<button className="btn btn-primary btn-sm" onClick={this.Prompt}>Ok</button>
                         </div>
                     </div>
 
