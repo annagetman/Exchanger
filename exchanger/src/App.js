@@ -36,11 +36,10 @@ class App extends React.Component {
                             информации технического характера
                             &nbsp;<button className="btn btn-primary btn-sm" onClick={this.Prompt}>Ok</button>
                         </div>
+                        </div>
                     </div>
 
                     <Footer />
-
-                </div>
             </div>
         );
     }
