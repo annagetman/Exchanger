@@ -11,7 +11,7 @@ class Nav extends React.Component {
             <nav>
                 <ul>
                     <li><a href="/">Главная</a></li>
-                    <li><a href="/">Пункты обмена</a></li>
+                    <li><a href="/points">Пункты обмена</a></li>
                     <li><a href="/about">О нас</a></li>
                 </ul>
             </nav>

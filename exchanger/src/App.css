@@ -8,7 +8,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 table {
   border-collapse: collapse;
-  border-spacing: none;
+  /*border-spacing: none;*/
 }
 .skin_color {
   color:#487922
@@ -40,29 +40,13 @@ a:active {
   color: #487922;
   text-decoration: none;
 }
-header{background: #487922}
-.top-bar {
-  padding: 0px;
-  font-size: 12px;
-  border-bottom: 4px solid #3b621c;
-  min-height: 40px;
-}
-.main-header {
-  padding: 20px 0 25px;
-}
-.site-title {
-  color: #fff;
-}
-.header-nav {
-  background: #3b621c;
-}
 main {
   background: #fff;
+  padding: 20px;
 }
 .container nav ul{
   display: flex;
   flex-direction: row;
-
   padding: 10px;
 
 }
@@ -105,27 +89,5 @@ main {
 .calc-res li {
   margin: 10px 0;
 }
-.footer .footer-bottom {
-  background: #202020;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.footer .footer-bottom ul li a {
-  line-height: 30px;
-  color: #fff;
-  position: relative;
-  margin-left: 23px;
-  display: block;
-  text-decoration: none;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.footer-title {
-  color: #fff;
-  font-size: 1.4rem;
-  margin-bottom: 20px;
-}
-.footer-title a {
-  color: #fff;
-  font-size: 1.4rem;
-  text-decoration: none;
-}
+
+

@@ -4,6 +4,7 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Rate from "./Rate/Rate";
 import About from "./About/About";
+import Points from "./Points/Points";
 
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -25,6 +26,7 @@ class App extends React.Component {
                         <switch>
                             <Route exact path="/" component={Rate}/>
                             <Route exact path="/about" component={About}/>
+                            <Route exact path="/points" component={Points}/>
                         </switch>
                         </Router>
                     </main>
